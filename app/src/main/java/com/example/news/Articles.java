@@ -1,0 +1,57 @@
+package com.example.news;
+
+public class Articles {
+    private String title;
+    private String description;
+    private String url;
+    private String urlToimage;
+    private String content;
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getUrlToimage() {
+        return urlToimage;
+    }
+
+    public void setUrlToimage(String urlToimage) {
+        this.urlToimage = urlToimage;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public Articles(String title, String description, String url, String urlToimage, String content) {
+        this.title = title;
+        this.description = description;
+        this.url = url;
+        this.urlToimage = urlToimage;
+        this.content = content;
+    }
+}
